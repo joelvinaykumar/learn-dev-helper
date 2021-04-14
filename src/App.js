@@ -21,19 +21,3 @@ export default App;
 const TabPane = styled(Tab.Pane)`
   width: 100%;
 `;
-
-const TabHeader = styled.div`
-  width: 50%;
-  font-size: 16px;
-  font-weight: 600;
-  text-align: center;
-  cursor: pointer;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  &:hover {
-    background-color: #eee;
-  }
-`;
